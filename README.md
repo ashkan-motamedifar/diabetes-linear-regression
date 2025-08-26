@@ -54,16 +54,7 @@ The main objective is to demonstrate a **regression pipeline**:
 
 Scatter plot showing model predictions against true target values.
 
-```python
-plt.scatter(y_test, y_pred, color="blue", alpha=0.6)
-plt.plot([y_test.min(), y_test.max()],
-         [y_test.min(), y_test.max()],
-         "r--", lw=2)
-plt.xlabel("Actual progression")
-plt.ylabel("Predicted progression")
-plt.title("Linear Regression: Actual vs Predicted")
-plt.show()
-```
+![Predicted vs Actual](figures/pred_vs_actual.png)
 
  **Interpretation:**
 
@@ -76,13 +67,7 @@ plt.show()
 
 Bar chart of regression coefficients for feature importance.
 
-```python
-plt.bar(diabetes.feature_names, model.coef_)
-plt.xticks(rotation=45)
-plt.ylabel("Coefficient value")
-plt.title("Feature Importance (Linear Regression)")
-plt.show()
-```
+![Feature Coefficients](figures/coefficients.png)
 
  **Insight:** BMI and serum glucose (s5) are the strongest predictors of diabetes progression.
 
