@@ -54,7 +54,7 @@ The main objective is to demonstrate a **regression pipeline**:
 
 Scatter plot showing model predictions against true target values.
 
-![Predicted vs Actual](figures/pred_vs_actual.png)
+![Feature Coefficients](figures/coefficients.png)
 
  **Interpretation:**
 
@@ -67,7 +67,7 @@ Scatter plot showing model predictions against true target values.
 
 Bar chart of regression coefficients for feature importance.
 
-![Feature Coefficients](figures/coefficients.png)
+![Predicted vs Actual](figures/pred_vs_actual.png)
 
  **Insight:** BMI and serum glucose (s5) are the strongest predictors of diabetes progression.
 
